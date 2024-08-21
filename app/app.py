@@ -7,6 +7,9 @@ from sklearn.preprocessing import StandardScaler
 model = joblib.load('app/model.pkl')
 scaler = joblib.load('app/scaler.pkl')
 
+# Load and display the logo
+st.image('images/logo.png', use_column_width=True)
+
 # Streamlit app layout
 st.title('Predictive Maintenance Multi-Label Classification')
 
